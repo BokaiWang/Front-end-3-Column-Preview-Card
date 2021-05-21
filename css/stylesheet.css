@@ -1,0 +1,18 @@
+:root {
+--color-brightOrange: hsl(31, 77%, 52%)
+--color-darkCyan: hsl(184, 100%, 22%)
+--color-veryDarkCyan: hsl(179, 100%, 13%)
+--color-transparentWhite: hsla(0, 0%, 100%, 0.75)
+--color-veryLightGray: hsl(0, 0%, 95%)
+}
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lexend Deca" Arial, Helvetica, sans-serif;
+}
