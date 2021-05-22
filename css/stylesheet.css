@@ -140,7 +140,7 @@ p {
   border: 2px solid var(--color-transparentWhite);
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
   .btn {
     margin-top: 5rem;
   }
