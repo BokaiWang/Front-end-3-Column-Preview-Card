@@ -31,9 +31,11 @@ p {
 /* Card */
 .container {
   display: flex;
-  padding: 1rem;
+  padding: 20rem;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  padding: 2rem;
 }
 .card-container {
   display: flex;
@@ -72,7 +74,6 @@ p {
   .container {
     width: 100vw;
     height: 100vh;
-    padding: 0;
   }
 
   .card-container {
