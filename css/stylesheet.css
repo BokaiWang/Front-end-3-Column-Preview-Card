@@ -1,18 +1,97 @@
 :root {
---color-brightOrange: hsl(31, 77%, 52%)
---color-darkCyan: hsl(184, 100%, 22%)
---color-veryDarkCyan: hsl(179, 100%, 13%)
---color-transparentWhite: hsla(0, 0%, 100%, 0.75)
---color-veryLightGray: hsl(0, 0%, 95%)
+  --color-brightOrange: hsl(31, 77%, 52%);
+  --color-darkCyan: hsl(184, 100%, 22%);
+  --color-veryDarkCyan: hsl(179, 100%, 13%);
+  --color-transparentWhite: hsla(0, 0%, 100%, 0.75);
+  --color-veryLightGray: hsl(0, 0%, 95%);
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: "Lexend Deca" Arial, Helvetica, sans-serif;
+  font-family: "Lexend Deca", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: var(--color-veryLightGray);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+
+p {
+  color: var(--color-transparentWhite);
+}
+
+/* Card */
+.container {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.card {
+  padding: 3.8rem;
+}
+
+.card-header {
+  text-transform: uppercase;
+  margin: 2.5rem 0;
+}
+
+.card-body {
+  line-height: 3rem;
+}
+
+.card-one {
+  background-color: var(--color-brightOrange);
+}
+
+.card-two {
+  background-color: var(--color-darkCyan);
+}
+
+.card-three {
+  background-color: var(--color-veryDarkCyan);
+}
+
+/* Button */
+.btn {
+  display: block;
+  width: 60%;
+  height: 4.5rem;
+  border-radius: 2.5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  white-space: nowrap;
+}
+
+.btn-one {
+  color: var(--color-brightOrange);
+  background-color: var(--color-transparentWhite);
+}
+
+.btn-two {
+  color: var(--color-darkCyan);
+  background-color: var(--color-transparentWhite);
+}
+
+.btn-three {
+  color: var(--color-veryDarkCyan);
+  background-color: var(--color-transparentWhite);
 }
