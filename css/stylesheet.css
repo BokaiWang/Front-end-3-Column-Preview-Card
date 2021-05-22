@@ -68,13 +68,33 @@ p {
   background-color: var(--color-veryDarkCyan);
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+  }
+
+  .card-container {
+    flex-direction: row;
+    height: 500px;
+    width: 950px;
+  }
+
+  .card-body {
+    min-height: 200px;
+  }
+}
+
 /* Button */
 .btn {
   display: block;
-  width: 60%;
+  width: auto;
   height: 4.5rem;
   border-radius: 2.5rem;
   margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   cursor: pointer;
   text-align: center;
   white-space: nowrap;
@@ -118,4 +138,10 @@ p {
   color: var(--color-transparentWhite);
   background-color: var(--color-veryDarkCyan);
   border: 2px solid var(--color-transparentWhite);
+}
+
+@media screen and (min-width: 375px) {
+  .btn {
+    margin-top: 5rem;
+  }
 }
