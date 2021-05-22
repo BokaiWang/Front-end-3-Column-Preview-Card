@@ -77,21 +77,45 @@ p {
   margin-top: 2rem;
   cursor: pointer;
   text-align: center;
-  border: 0;
   white-space: nowrap;
+  border: 0;
 }
 
 .btn-one {
   color: var(--color-brightOrange);
   background-color: var(--color-transparentWhite);
+  transition: 0.2s;
+}
+
+.btn-one:hover,
+.btn-one:active {
+  color: var(--color-transparentWhite);
+  background-color: var(--color-brightOrange);
+  border: 2px solid var(--color-transparentWhite);
 }
 
 .btn-two {
   color: var(--color-darkCyan);
   background-color: var(--color-transparentWhite);
+  transition: 0.2s;
+}
+
+.btn-two:hover,
+.btn-two:active {
+  color: var(--color-transparentWhite);
+  background-color: var(--color-darkCyan);
+  border: 2px solid var(--color-transparentWhite);
 }
 
 .btn-three {
   color: var(--color-veryDarkCyan);
   background-color: var(--color-transparentWhite);
+  transition: 0.2s;
+}
+
+.btn-three:hover,
+.btn-three:active {
+  color: var(--color-transparentWhite);
+  background-color: var(--color-veryDarkCyan);
+  border: 2px solid var(--color-transparentWhite);
 }
